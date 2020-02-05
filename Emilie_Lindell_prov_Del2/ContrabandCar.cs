@@ -8,6 +8,6 @@ namespace Emilie_Lindell_prov_Del2
 {
     class ContrabandCar : Car
     {
-
+        ContrabandCar
     }
 }

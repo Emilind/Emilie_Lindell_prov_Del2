@@ -8,6 +8,8 @@ namespace Emilie_Lindell_prov_Del2
 {
     class CleanCar : Car
     {
+        Car randomGeneratorn = new Car();
 
+        CleanCar
     }
 }

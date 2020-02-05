@@ -8,14 +8,29 @@ namespace Emilie_Lindell_prov_Del2
 {
     class Car
     {
-        public int passengers;
-        public int contrabandAmount;
-        public bool alreadyChecked = true;
-        public Random generator = new Random();
+        
+        public int passengers;// för antalet passagerare
+        public int contrabandAmount;//Hur mycket contraband som fanns i bilen
+        public bool alreadyChecked = true;//För att säkerhetskolla om spelaren redan kollat på den bilen eller inte
+        public Random generator = new Random();// för att slumpa hur många passagerare i bilarna och sedan om den innehåller contraband eller inte
+        public List<string> Bilar = new List<string>();//Listan som håller antalet bilar som spelaren skriver in
+        
 
-        public bool examine ()
+        public bool examine ()// för att undersöka den valda bilen och sedan return:a om bilen innehöll contraband eller inte
         {
-            if()
+            if(true)
+            {
+                return true;
+                Console.WriteLine("Du hitta stöldgods i bilen!");
+                
+            }
+            else
+            {
+                return false;
+                Console.WriteLine("Inget hittades i denna bil!");
+
+            }
+            
 
         }
 
