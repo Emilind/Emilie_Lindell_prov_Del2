@@ -32,6 +32,8 @@ namespace Emilie_Lindell_prov_Del2
                 }
 
             }
+
+            Console.WriteLine("Vilken bil vill du titta på? [");
             Console.ReadLine();
         }
     }
