@@ -8,6 +8,8 @@ namespace Emilie_Lindell_prov_Del2
 {
     class Car
     {
+        CleanCar oskyldigBil = new CleanCar();
+        ContrabandCar SkyldigBil = new ContrabandCar(); 
         
         public int passengers;// för antalet passagerare
         public int contrabandAmount;//Hur mycket contraband som fanns i bilen
@@ -15,6 +17,8 @@ namespace Emilie_Lindell_prov_Del2
         public Random generator = new Random();// för att slumpa hur många passagerare i bilarna och sedan om den innehåller contraband eller inte
         public List<string> Bilar = new List<string>();//Listan som håller antalet bilar som spelaren skriver in
         
+        CleanCar
+
 
         public bool examine ()// för att undersöka den valda bilen och sedan return:a om bilen innehöll contraband eller inte
         {

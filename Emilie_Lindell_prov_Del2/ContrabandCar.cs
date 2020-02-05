@@ -8,6 +8,11 @@ namespace Emilie_Lindell_prov_Del2
 {
     class ContrabandCar : Car
     {
-        ContrabandCar
+        public ContrabandCar()
+        {
+            passengers = generator.Next(1, 4);//Slumpar antalet passagerare i bilen
+            contrabandAmount = generator.Next(1, 4);//Slumpar värdet på contrabandet i bilen
+
+        }
     }
 }
